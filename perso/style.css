@@ -79,7 +79,6 @@ div img{
     div nav ul{
         position: absolute;
         display: block;
-        /* background-color: aqua; */
         background-color: rgba(172, 167, 167, 0.432);
         backdrop-filter: blur(8px);
         height: 100vh;
