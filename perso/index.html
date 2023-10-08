@@ -10,15 +10,28 @@
     <div>
         <nav>
             <a href="" class="logo">MARADONA</a>
-            <ul class="nav-links">
-                <li><a href="">Home</a></li>
+            <ul class="">
+                <li class="active"><a href="">Home</a></li>
                 <li><a href="">Trafics</a></li>
                 <li><a href="">Transport</a></li>
                 <li><a href="">Message</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
+        <img src="../repli/images/menu.jpg" alt="">
     </div>
     <header></header>
 </body>
+<script>
+    // Probleme
+    // est en creant la structure du site, on a pas creer 
+    // les class ciblé par QuerySelector
+
+    const menuhamburger = document.querySelector('img')
+    const navLinks = document.querySelector('ul')
+
+    menuhamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
