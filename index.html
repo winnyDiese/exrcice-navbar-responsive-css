@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="#" class="logo">ADVENTURE</a>
+        <a href="#" class="logo">PASCOVich</a>
         <div class="nav-links">
             <ul>
                 <li class="active"><a href="">Home</a></li>
@@ -21,7 +21,14 @@
         <img src="./menu.jpg" alt="menu-hamburger" class="menu-hamburger">
     </nav>
     <header>
-
     </header>
 </body>
+    <script>
+        const menuhambuger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+
+        menuhambuger.addEventListener('click', ()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </html>
